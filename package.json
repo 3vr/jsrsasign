@@ -1,0 +1,17 @@
+{
+  "author": "kjur (Kenji Urushima)",
+  "name": "jsrsasign",
+  "description": "PKCS#1 v2.1 RSASSA-PKCS1-v1_5 RSA signing and validation algorithm",
+  "version": "1.2.1",
+  "homepage": "http://kjur.github.com/jsrsasign",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kjur/jsrsasign.git"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
