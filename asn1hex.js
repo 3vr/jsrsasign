@@ -28,7 +28,7 @@
 //     (i.e. ASN.1 primitives like SET, SEQUENCE, INTEGER, OCTETSTRING ...)
 //   - 
 
-var parseBigInt = require('rsa').parseBigInt;
+var parseBigInt = require('./rsa').parseBigInt;
 
 /**
  * get byte length for ASN.1 L(length) bytes
