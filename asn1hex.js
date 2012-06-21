@@ -27,6 +27,9 @@
 //   - ASN.1 type octet length MUST be 1. 
 //     (i.e. ASN.1 primitives like SET, SEQUENCE, INTEGER, OCTETSTRING ...)
 //   - 
+
+var parseBigInt = require('rsa').parseBigInt;
+
 /**
  * get byte length for ASN.1 L(length) bytes
  * @name getByteLengthOfL_AtObj

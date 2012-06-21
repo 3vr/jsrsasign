@@ -2,6 +2,8 @@
 
 // Version 1.1: support utf-8 encoding in pkcs1pad2
 
+var BigInteger = require('jsbn').BigInteger;
+
 // convert a (hex) string to a bignum object
 function parseBigInt(str,r) {
   return new BigInteger(str,r);
@@ -112,3 +114,4 @@ RSAKey.prototype.encrypt = RSAEncrypt;
 //RSAKey.prototype.encrypt_b64 = RSAEncryptB64;
 
 module.exports = RSAKey;
+module.exports.parseBigInt = parseBigInt;
