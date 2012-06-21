@@ -255,3 +255,4 @@ X509.prototype.getSubjectString = _x509_getSubjectString;
 X509.prototype.getNotBefore = _x509_getNotBefore;
 X509.prototype.getNotAfter = _x509_getNotAfter;
 
+module.exports = X509;
