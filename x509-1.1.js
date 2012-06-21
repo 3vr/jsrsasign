@@ -19,6 +19,9 @@
 //   rsa.js
 //   asn1hex.js
 
+var ASN1HEX = require('asn1hex-1.1');
+var RSAKey = rquire('rsa');
+
 function _x509_pemToBase64(sCertPEM) {
   var s = sCertPEM;
   s = s.replace("-----BEGIN CERTIFICATE-----", "");
