@@ -8,6 +8,7 @@
     "type": "git",
     "url": "git://github.com/kjur/jsrsasign.git"
   },
+  "main": "./index.js",
   "dependencies": {},
   "devDependencies": {},
   "optionalDependencies": {},
