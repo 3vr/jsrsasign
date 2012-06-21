@@ -21,7 +21,7 @@
 
 var ASN1HEX = require('./asn1hex');
 var RSAKey = require('./rsa');
-var b64tohex = require('./b64tohex');
+var b64tohex = require('./base64').b64tohex;
 
 function _x509_pemToBase64(sCertPEM) {
   var s = sCertPEM;
