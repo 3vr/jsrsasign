@@ -557,3 +557,6 @@ BigInteger.prototype.modPowInt = bnModPowInt;
 // "constants"
 BigInteger.ZERO = nbv(0);
 BigInteger.ONE = nbv(1);
+
+module.exports.BigInteger = BigInteger;
+module.exports.int2char = int2char;
