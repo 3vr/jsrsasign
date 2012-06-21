@@ -6,6 +6,8 @@
 
 // Version 1.1: new BigInteger("0", 10) returns "proper" zero
 
+var BigInteger = require('./jsbn').BigInteger;
+
 // (public)
 function bnClone() { var r = nbi(); this.copyTo(r); return r; }
 
@@ -646,3 +648,5 @@ BigInteger.prototype.isProbablePrime = bnIsProbablePrime;
 // int hashCode()
 // long longValue()
 // static BigInteger valueOf(long val)
+
+module.exports.BigInteger = BigInteger;
