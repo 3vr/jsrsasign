@@ -19,8 +19,8 @@
 //   rsa.js
 //   asn1hex.js
 
-var ASN1HEX = require('asn1hex');
-var RSAKey = rquire('rsa');
+var ASN1HEX = require('./asn1hex');
+var RSAKey = rquire('./rsa');
 
 function _x509_pemToBase64(sCertPEM) {
   var s = sCertPEM;

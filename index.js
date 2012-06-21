@@ -1,2 +1,2 @@
 
-module.exports = require('./x509');
+module.exports.X509 = require('./x509');
